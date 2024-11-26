@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMensagem para você</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Meu Amor,</strong>
+                        <p>
+                            Escrevo esta carta pensando em como meu amor por você é de um tamanho imensuravel.
+                             Se eu pudesse voltar no tempo não teria demorado tanto para mandar mensagem para você,
+                             Amo todos os momentos com você, desde os mais simples aos mais planejados.
+                             Espero conquistar mais coisas com você.</br>
+                             <span style="display: block; text-align: center;">I ♡ YOU.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
